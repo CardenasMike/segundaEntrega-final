@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.card{
+    background-color: black;
+
+}
+
+.caja{
+    padding: 0;
+}
+
+.tituloMenu{
+    font-size: 35px;
+}
+
+.item1, .item2, .item3, .item4{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.textoCard{
+    color: white;
+}
+
+.tituloCard{
+    color: white;
+}
+
+.navItem{
+    vertical-align: inherit;
+}
+
+.letra{
+    color: white;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    transition-property: all;
+  transition-duration: 1s;
+}
+
+.btn:hover{
+    transform: scale(1.2);
+}
+
+.fotoAnime{
+    transition-property: all;
+  transition-duration: 1s;
+}
+
+.fotoAnime:hover{
+    transform: scale(1.2);
+}
+
+.animate__heartBeat{
+    animation-duration: 3s;
+    animation-delay: 1.5s;
+}
+
+.pagination{
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+/* ------------------------------------ANIMES.HTML------------------ */
+
+.gif{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+
+}
+
+.navPestaña{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.botonPes{
+    color: white;
+}
+
+.animes{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.ulCard{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    list-style: none;
+}
+
+.liCard{
+    margin: 50px 0px 50px 0px;
+}
+
+.card-text, .card-title{
+    color: white;
+}
+
+.canvasItem{
+    color: black;
+}
+
+.botonCanvas:hover{
+    color: black;
+    background-color: white;
+}
+
+.botonCanvas{
+    transition: linear 0.2s;
+}
+
+.animate__fadeInDown{
+    animation-duration: 3s;
+}
+
+.animate__bounceInDown{
+    animation-duration: 2s;
+}
+
+.animate__fadeInRight{
+    animation-duration: 5s;
+}
+
+/* ------------------------------------------------MANGAS.HTML--------------------------------- */
+
+.card-img{
+    width: 645px;
+    height: 1018px;
+}
+
+
+.itemManga{
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.itemManga:hover{
+    transform: scale(1.1);
+}
+
+.card-textMangas{
+    font-size: 1.2em;
+}
+
+
